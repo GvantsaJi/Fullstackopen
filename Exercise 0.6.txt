@@ -1,0 +1,11 @@
+title Exercise 0.6
+
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+Browser->Server: HTTP status code 200
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Browser->Server: HTTP status code 200 
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+Browser->Server: HTTP status code 200 
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Browser->Server: HTTP status code 200 
+Browser->Server: [{"content":"new note","date":"2022-11-20T20:47:16.085Z"}]
